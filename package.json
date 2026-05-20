@@ -1,0 +1,25 @@
+{
+  "name": "cucumber-automation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "bdd": "cucumber-js",
+    "bdd:ui": "cucumber-js --tags @ui",
+    "bdd:search": "cucumber-js --tags @search",
+    "bdd:cart": "cucumber-js --tags @cart",
+    "bdd:filter": "cucumber-js --tags @filter",
+    "bdd:language": "cucumber-js --tags @language"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
