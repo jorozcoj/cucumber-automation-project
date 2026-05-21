@@ -10,7 +10,8 @@
     "bdd:search": "cucumber-js --tags @search",
     "bdd:cart": "cucumber-js --tags @cart",
     "bdd:filter": "cucumber-js --tags @filter",
-    "bdd:language": "cucumber-js --tags @language"
+    "bdd:language": "cucumber-js --tags @language",
+    "bdd:register": "cucumber-js --tags @register"
   },
   "keywords": [],
   "author": "",
